@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>4dde2ee7-f121-4de1-bfcb-6431b13964be</ProjectGuid>
+    <ProjectGuid>ee973992-9de4-4773-b303-126ac4a80f0b</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>devopstest</DockerServiceName>
