@@ -1,8 +1,8 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
 
-ENV ASPNETCORE_URLS=http://+:1234
-EXPOSE 1234
+ENV ASPNETCORE_URLS=http://+:12345
+EXPOSE 12345
 EXPOSE 443
 
 FROM microsoft/dotnet:2.1-sdk AS build
