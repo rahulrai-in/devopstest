@@ -1,9 +1,9 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
 
-#ENV ASPNETCORE_URLS=http://+:80
+ENV ASPNETCORE_URLS=http://+:80
 EXPOSE 80
-#EXPOSE 443
+EXPOSE 443
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
